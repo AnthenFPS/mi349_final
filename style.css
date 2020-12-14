@@ -1,0 +1,82 @@
+html{
+    background: #e3e3e3;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #9b0505;
+    background: #fff;
+    overflow: auto; 
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.sticky{
+    padding: 10px;
+    border: 2px solid black;
+    background: lightgray;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+#about-me{
+    border-top: 1px dotted #ccc;
+}
+
+h2{
+    color: #002366;
+    border: 0.5rem outset #9b0505;
+    font-size: 2em;
+}
+
+span{
+    color: #18453B;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+ul>li{
+    margin: 20px;
+}
+
+.post{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #9b0505;
+}
